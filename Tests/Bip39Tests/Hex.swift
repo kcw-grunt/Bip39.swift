@@ -30,7 +30,7 @@ extension Data {
     }
 }
 
-extension String {
+public extension String {
     var hex: Data? {
         return Data(hex: self)
     }
